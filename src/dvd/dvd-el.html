@@ -209,7 +209,7 @@
     }
   },
   ready: function () {
-    fetch("../data/dvdData.json").then(response => response.json()).then(data => {
+    fetch("/src/data/dvdData.json").then(response => response.json()).then(data => {
       var tempData = JSON.stringify(data.movies);
       this.jsonData = JSON.parse(tempData);
     }).catch(error => {
