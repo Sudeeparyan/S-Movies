@@ -1,0 +1,313 @@
+{
+  "movies": [
+    {
+      "category": "Comedy",
+
+      "backdrop_path": "/2e7fc8eNwLXZ5Uvehvl3xj8wVyv.jpg",
+
+      "id": 385687,
+
+      "language": "Hindi",
+
+      "original_title": "Fast X",
+
+      "overview": "Over many missions and against impossible odds, Dom Toretto and his family have outsmarted, out-nerved and outdriven every foe in their path. Now, they confront the most lethal opponent they've ever faced: A terrifying threat emerging from the shadows of the past who's fueled by blood revenge, and who is determined to shatter this family and destroy everything—and everyone—that Dom loves, forever.",
+
+      "popularity": 8363.473,
+
+      "poster_path": "/fiVW06jE7z9YnO4trhaMEdclSiC.jpg",
+
+      "releaseDate": "2023-05-17",
+
+      "title": "FastX",
+      "temp_id": "Fast",
+
+      "video": false,
+
+      "vote_average": 7.4,
+
+      "vote_count": 1347,
+      "stockValue": 20,
+      "itemVal": 0
+    },
+
+    {
+      "category": "Action",
+
+      "backdrop_path": "/h8gHn0OzBoaefsYseUByqsmEDMY.jpg",
+
+      "id": 603692,
+
+      "language": "Hindi",
+
+      "original_title": "John Wick: Chapter 4",
+
+      "overview": "With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+
+      "popularity": 4210.313,
+
+      "poster_path": "/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
+
+      "releaseDate": "2023-03-22",
+
+      "title": "JohnWickChapter4",
+      "temp_id": "JohnWick",
+
+      "video": false,
+
+      "vote_average": 7.9,
+
+      "vote_count": 2896,
+      "stockValue": 15,
+      "itemVal": 0
+    },
+
+    {
+      "category": "Horror",
+
+      "backdrop_path": "/9n2tJBplPbgR2ca05hS5CKXwP2c.jpg",
+
+      "id": 502356,
+
+      "language": "Hindi",
+
+      "original_title": "The Super Mario Bros. Movie",
+
+      "overview": "While working underground to fix a water main, Brooklyn plumbers—and brothers—Mario and Luigi are transported down a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on an epic quest to find Luigi.",
+
+      "popularity": 3394.458,
+
+      "poster_path": "/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
+
+      "releaseDate": "2023-04-05",
+
+      "title": "TheSuperMarioBrosMovie",
+      "temp_id": "TheSuperMario",
+
+      "video": false,
+
+      "vote_average": 7.8,
+
+      "vote_count": 4628,
+      "stockValue": 23,
+      "itemVal": 0
+    },
+
+    {
+      "category": "Romance",
+
+      "backdrop_path": "/nGxUxi3PfXDRm7Vg95VBNgNM8yc.jpg",
+
+      "id": 569094,
+
+      "language": "Telugu",
+
+      "original_title": "Spider-Man: Across the Spider-Verse",
+
+      "overview": "After reuniting with Gwen Stacy, Brooklyn’s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse’s very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most.",
+
+      "popularity": 2859.047,
+
+      "poster_path": "/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+
+      "releaseDate": "2023-05-31",
+
+      "title": "Spider-ManAcrosstheSpider-Verse",
+      "temp_id": "Spider-Man",
+
+      "video": false,
+
+      "vote_average": 8.8,
+
+      "vote_count": 1160,
+      "stockValue": 20,
+      "itemVal": 0
+    },
+
+    {
+      "category": "Romance",
+
+      "backdrop_path": "/8FhKnPpql374qyyHAkZDld93IUw.jpg",
+
+      "id": 536437,
+
+      "language": "English",
+
+      "original_title": "Hypnotic",
+
+      "overview": "A detective becomes entangled in a mystery involving his missing daughter and a secret government program while investigating a string of reality-bending crimes.",
+
+      "popularity": 2654.854,
+
+      "poster_path": "/3IhGkkalwXguTlceGSl8XUJZOVI.jpg",
+
+      "releaseDate": "2023-05-11",
+
+      "title": "Hypnotic",
+      "temp_id": "Hypno",
+
+      "video": false,
+
+      "vote_average": 6.5,
+
+      "vote_count": 154,
+      "stockValue": 10,
+      "itemVal": 0
+    },
+
+    {
+      "category": "Comedy",
+
+      "backdrop_path": "/9NgtktUFLm9cnFDFaekx2ROh84f.jpg",
+
+      "id": 667538,
+
+      "language": "English",
+
+      "original_title": "Transformers: Rise of the Beasts",
+
+      "overview": "When a new threat capable of destroying the entire planet emerges, Optimus Prime and the Autobots must team up with a powerful faction known as the Maximals. With the fate of humanity hanging in the balance, humans Noah and Elena will do whatever it takes to help the Transformers as they engage in the ultimate battle to save Earth.",
+
+      "popularity": 2453.807,
+
+      "poster_path": "/gPbM0MK8CP8A174rmUwGsADNYKD.jpg",
+
+      "releaseDate": "2023-06-06",
+
+      "title": "TransformersRiseoftheBeasts",
+      "temp_id": "Transformers",
+
+      "video": false,
+
+      "vote_average": 7.4,
+
+      "vote_count": 195,
+      "stockValue": 15,
+      "itemVal": 0
+    },
+
+    {
+      "category": "Action",
+
+      "backdrop_path": "/9t0tJXcOdWwwxmGTk112HGDaT0Q.jpg",
+
+      "id": 890771,
+
+      "language": "English",
+
+      "original_title": "The Black Demon",
+
+      "overview": "Oilman Paul Sturges' idyllic family vacation turns into a nightmare when they encounter a ferocious megalodon shark that will stop at nothing to protect its territory. Stranded and under constant attack, Paul and his family must somehow find a way to get his family back to shore alive before it strikes again in this epic battle between humans and nature.",
+
+      "popularity": 1777.2,
+
+      "poster_path": "/uiFcFIjig0YwyNmhoxkxtAAVIL2.jpg",
+
+      "releaseDate": "2023-04-26",
+
+      "title": "The-Black-Demon",
+      "temp_id": "The-Black",
+
+      "video": false,
+
+      "vote_average": 6.5,
+
+      "vote_count": 151,
+      "stockValue": 10,
+      "itemVal": 0
+    },
+
+    {
+      "category": "Horror",
+
+      "backdrop_path": "/ribiMu3iINPxDkofErPxe8jQ8L0.jpg",
+
+      "id": 447277,
+
+      "language": "English",
+
+      "original_title": "The Little Mermaid",
+
+      "overview": "The youngest of King Triton’s daughters, and the most defiant, Ariel longs to find out more about the world beyond the sea, and while visiting the surface, falls for the dashing Prince Eric. With mermaids forbidden to interact with humans, Ariel makes a deal with the evil sea witch, Ursula, which gives her a chance to experience life on land, but ultimately places her life – and her father’s crown – in jeopardy.",
+
+      "popularity": 1448.64,
+
+      "poster_path": "/ym1dxyOk4jFcSl4Q2zmRrA5BEEN.jpg",
+
+      "releaseDate": "2023-05-18",
+
+      "title": "The-Little-Mermaid",
+      "temp_id": "Mermaid",
+
+      "video": false,
+
+      "vote_average": 6.2,
+
+      "vote_count": 616,
+      "stockValue": 10,
+      "itemVal": 0
+    },
+
+    {
+      "category": "Horror",
+
+      "backdrop_path": "/aAgGrfBwna1nO4M2USxwFgK5O0t.jpg",
+
+      "id": 713704,
+
+      "language": "Telugu",
+
+      "original_title": "Evil Dead Rise",
+
+      "overview": "Three siblings find an ancient vinyl that gives birth to bloodthirsty demons that run amok in a Los Angeles apartment building and thrusts them into a primal battle for survival as they face the most nightmarish version of family imaginable.\"",
+
+      "popularity": 1285.781,
+
+      "poster_path": "/5ik4ATKmNtmJU6AYD0bLm56BCVM.jpg",
+
+      "releaseDate": "2023-04-12",
+
+      "title": "Evil-Dead-Rise",
+      "temp_id": "Evil-Dead",
+
+      "video": "Horror",
+
+      "vote_average": 7.1,
+
+      "vote_count": 1597,
+      "stockValue": 10,
+      "itemVal": 0
+    },
+
+    {
+      "category": "Comedy",
+
+      "backdrop_path": "/5YZbUmjbMa3ClvSW1Wj3D6XGolb.jpg",
+
+      "id": 447365,
+
+      "language": "Telugu",
+
+      "original_title": "Guardians of the Galaxy Vol. 3",
+
+      "overview": "Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them.",
+
+      "popularity": 1262.366,
+
+      "poster_path": "/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
+
+      "releaseDate": "2023-05-03",
+
+      "title": "Guardians-of-the-Galaxy-Vol3",
+      "temp_id": "Guardians",
+
+      "video": "Horror",
+
+      "vote_average": 8.1,
+
+      "vote_count": 1932,
+      "stockValue": 10,
+      "itemVal": 0
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <script>// Define a Polymer V1 element named "cartElements"
+var cartElements = {
+  properties: {
+    // Define property "movieDetails" with type Array and initial value as an empty array
+    movieDetails: {
+      type: Array,
+      notify: true,
+      value: []
+    },
+    // Define property "jsonData" with type Array and initial value as a function returning an empty array
+    jsonData: {
+      type: Array,
+      value: function () {
+        return [];
+      }
+    },
+    search: {
+      type: String,
+      value: "",
+      observer: "filterData"
+    },
+    selectedCategory: {
+      type: String,
+      value: "All",
+      observer: "filterData"
+    },
+    selectedLanguage: {
+      type: String,
+      value: "All",
+      observer: "filterData"
+    },
+    sortValue: {
+      type: String,
+      value: "asc"
+    },
+    stocksValue: {
+      type: Number,
+      value: 10
+    },
+    itemVal: {
+      type: Number,
+      value: 0
+    }
+  }
+};</script>
+  
+
+</body></html>

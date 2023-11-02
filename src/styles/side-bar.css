@@ -1,0 +1,39 @@
+.filter {
+  background-color: rgb(39, 39, 39);
+  width: 18%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white;
+  text-align: center;
+}
+.heading-sidebar {
+  font-size: 40px;
+  text-align: center;
+  color: aliceblue;
+}
+.searchInput {
+  font-size: 25px;
+}
+.input-box {
+  height: 25px;
+}
+.categories {
+  font-size: 25px;
+}
+.languages {
+  font-size: 25px;
+}
+.rating {
+  font-size: 25px;
+  background-color: rgb(39, 39, 39);
+  color: white;
+  padding: 2%;
+}
+.moviename {
+  font-size: 25px;
+  background-color: rgb(39, 39, 39);
+  color: white;
+  padding: 2%;
+}

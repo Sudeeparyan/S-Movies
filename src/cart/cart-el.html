@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Importing various Polymer elements and CSS styles -->
+    <link rel="import" href="../../bower_components/polymer/polymer.html">
+    <link rel="import" href="../dvd/dvd-el.html">
+    <link rel="import" href="../behaviours/behaviours-el.html">
+    <link rel="import" href="../styles/movie-container.css">
+  </head>
+  <body>
+    <dom-module id="cart-el">
+      <template>
+        <!-- Purchase button for cart -->
+        <div class="purchase">
+          <button class="purchaseBtn" on-click="removeDetails">
+            Purchase All
+          </button>
+        </div>
+        <!-- Container for displaying movie details in the cart -->
+        <div class="movie-container">
+          <!-- Individual movie box in the cart -->
+          <template id="cartProduct" is="dom-repeat" items="{{updateDetails}}" as="data">
+            <div>
+              <div class="movie-box" id="{{movieData.temp_id}}">
+                <div class="movie-image">
+                  <img id="cart-movie" src="https://image.tmdb.org/t/p/w500/{{data.poster_path}}" alt="movie_image" class="image">
+                </div>
+                <div class="movie-details">
+                  <h3 class="movie-name">
+                    Title: <span>{{data.original_title}}</span>
+                  </h3>
+                  <h3 class="movie-lang">
+                    Language: <span>{{data.language}}</span>
+                  </h3>
+                  <h3 class="movie-catg">
+                    Category: <span>{{data.category}}</span>
+                  </h3>
+                  <h3 class="movie-release">
+                    Release Date: <span>{{data.releaseDate}}</span>
+                  </h3>
+
+                  <div class="item-value">
+                    <h3><span>{{data.itemVal}}</span></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </template>
+        </div>
+      </template>
+
+      <script>// Defining the "cart-el" Polymer element
+Polymer({
+  is: "cart-el",
+  behaviors: [cartElements],
+  properties: {
+    count: {
+      type: Number,
+      value: 1
+    },
+    updateDetails: {
+      type: Array,
+      notify: true,
+      value: function () {
+        return [];
+      }
+    }
+  },
+  removeDetails: function () {
+    this.updateDetails = [];
+    window.location.reload();
+  },
+  ready: function () {
+    // Listening for a custom event "sendMovie"
+    document.addEventListener("sendMovie", e => {
+      let i = 0;
+      var movie = [...new Set(this.movieDetails)];
+      i = this.movieDetails.findIndex(mov => mov.id === e.detail.id);
+      if (this.count) this.set("updateDetails", movie);
+      this.set(["updateDetails", i, e.detail.prop], e.detail.val);
+    });
+  }
+});</script>
+    </dom-module>
+  
+
+</body></html>

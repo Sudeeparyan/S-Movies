@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #04042b;
+}
+
+#navbar-box {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(226, 17, 17);
+  height: 10vh;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#menu-items {
+  display: flex;
+  width: 500px;
+  justify-content: space-evenly;
+  /* background-color: aliceblue; */
+  padding: 10px;
+}
+#menu-items a {
+  background-color: aliceblue;
+  padding: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+#logo {
+  background-color: aliceblue;
+  margin-left: 20px;
+  padding: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.purchase {
+}

@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+}
+.movie-container {
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  height: 83vh;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  padding: 20px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 90vh;
+    padding: 10px; */
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.movie-box {
+  width: 400px;
+  height: 65vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.movie-image {
+  background-color: white;
+  height: 59%;
+}
+.movie-details {
+  background-color: rgb(255, 0, 0);
+  height: 39%;
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+}
+.addTocart {
+  text-align: center;
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+.download {
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+  /* background-color: rgb(255, 0, 0); */
+  color: black;
+  padding: 1%;
+}
+.place-order {
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+  /* background-color: rgb(255, 0, 0); */
+  color: black;
+  padding: 1%;
+}
+#cart-movie {
+  height: 400px;
+  width: 400px;
+}
+.movie-container {
+  background-color: #04042b;
+}
+.purchase {
+  text-align: end;
+  padding: 1%;
+}
+.purchaseBtn {
+  background-color: rgb(238, 238, 57);
+  font-size: x-large;
+  padding: 0.5%;
+  font-weight: bold;
+}

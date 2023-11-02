@@ -1,0 +1,50 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Importing Polymer and other web components -->
+    <link rel="import" href="../bower_components/polymer/polymer.html">
+    <link rel="import" href="../bower_components/app-route/app-location.html">
+    <link rel="import" href="../bower_components/app-route/app-route.html">
+    <link rel="import" href="../bower_components/iron-pages/iron-pages.html">
+    <link rel="import" href="./home-page/home-page.html">
+    <link rel="import" href="./download-movies/download-movies.html">
+    <link rel="import" href="./dvd/dvd-el.html">
+    <link rel="import" href="./cart/cart-el.html">
+    <!-- Importing CSS styles -->
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/side-bar.css">
+  </head>
+  <body>
+    <dom-module id="routing-page">
+      <template>
+        <!-- <h1>Nav Bar</h1> -->
+        <div id="navbar-box">
+          <div id="logo">
+            <a href="/dvd-el">Home Page</a>
+          </div>
+          <div id="menu-items">
+            <a href="/download-movies">Download Movies</a>
+            <a href="/dvd-el">DvD Movies</a>
+            <a href="/cart-el">Cart</a>
+          </div>
+        </div>
+        <!-- app-location and app-route elements for handling URL routing -->
+        <app-location route="{{route}}"></app-location>
+        <app-route route="{{route}}" pattern="/:view" data="{{routeData}}" tail="{{subroute}}">
+        </app-route>
+        <!-- iron-pages for displaying different views based on the route -->
+        <iron-pages selected="[[routeData.view]]" attr-for-selected="route-val">
+          <home-page route-val="home-page" route="{{subroute}}" dummy="dum"></home-page>
+          <dvd-el route-val="dvd-el" route="{{subroute}}" dummy="dum"></dvd-el>
+          <download-movies route-val="download-movies" route="{{subroute}}" dummy="dum"></download-movies>
+          <cart-el route-val="cart-el" route="{{subroute}}" dummy="dum"></cart-el>
+        </iron-pages>
+      </template>
+      <script>Polymer({
+  is: "routing-page"
+});</script>
+    </dom-module>
+  
+
+</body></html>
